@@ -2,12 +2,13 @@
     "name": "server",
     "version": "1.0.0",
     "private": true,
-    "script" : {
-        "start" : "node dist/index",
-        "build" : "tsc -p .",
-        "dev" : "tsc-watch --onSuccess \"node dist/index.js\""
+    "scripts": {
+        "start": "node dist/index",
+        "build": "tsc -p .",
+        "dev": "tsc-watch --onSuccess \"node dist/index.js\""
     },
     "devDependencies": {
+        "socket.io": "^4.8.1",
         "tsc-watch": "^7.1.1",
         "typescript": "^5.8.3"
     }
