@@ -10,8 +10,10 @@
   },
   "devDependencies": {
     "prettier": "^3.5.3",
+    "socket.io-client": "^4.8.1",
     "turbo": "^2.5.4",
-    "typescript": "5.8.2"
+    "typescript": "5.8.2",
+    "web": "^0.1.0"
   },
   "engines": {
     "node": ">=18"
